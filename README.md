@@ -1,7 +1,6 @@
-## MavenRoaringBitmapProject
+## JitPackRoaringBitmapProject
 
-This is a demonstration of how to use the RoaringBitmap library from a
-GitHub package.
+This is a demonstration of how to use the RoaringBitmap library from JitPack.
 
 - [Maven](#maven)
 - [Gradle](#gradle)
@@ -36,7 +35,7 @@ Then add the repository to your pom.xml file:
 
 The approach with gradle is similar.
 
-All you need is the following `build.gradle` file:
+All you need is to edit your `build.gradle` file like so:
 
 ```groovy
 plugins {
