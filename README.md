@@ -11,11 +11,11 @@ This is a demonstration of how to use the RoaringBitmap library from JitPack.
 Add the following dependency to your pom.xml file...
 
 ```xml
-	<dependency>
-	    <groupId>com.github.RoaringBitmap.RoaringBitmap</groupId>
-	    <artifactId>roaringbitmap</artifactId>
-	    <version>1.3.15</version>
-	</dependency>
+<dependency>
+    <groupId>com.github.RoaringBitmap.RoaringBitmap</groupId>
+    <artifactId>roaringbitmap</artifactId>
+    <version>1.3.15</version>
+</dependency>
 ```
 
 You may adjust the version number.
@@ -24,10 +24,10 @@ Then add the repository to your pom.xml file:
 
 ```xml
 <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+     </repository>
 </repositories>
 ```
 
