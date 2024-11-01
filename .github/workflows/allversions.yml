@@ -1,4 +1,4 @@
-name: 11, 17, 21 CI
+name: gradle (11, 17, 21) CI
 
 on: [push,pull_request]
 
