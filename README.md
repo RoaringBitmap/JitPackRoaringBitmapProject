@@ -1,5 +1,6 @@
 ## JitPackRoaringBitmapProject
-[![11, 17, 21 CI](https://github.com/RoaringBitmap/JitPackRoaringBitmapProject/actions/workflows/allversions.yml/badge.svg)](https://github.com/RoaringBitmap/JitPackRoaringBitmapProject/actions/workflows/allversions.yml)
+[![gradle (11, 17, 21) CI](https://github.com/RoaringBitmap/JitPackRoaringBitmapProject/actions/workflows/allversions.yml/badge.svg)](https://github.com/RoaringBitmap/JitPackRoaringBitmapProject/actions/workflows/allversions.yml)
+[![maven (11) CI](https://github.com/RoaringBitmap/JitPackRoaringBitmapProject/actions/workflows/mvnallversions.yml/badge.svg)](https://github.com/RoaringBitmap/JitPackRoaringBitmapProject/actions/workflows/mvnallversions.yml)
 
 This is a demonstration of how to use the RoaringBitmap library from JitPack.
 
