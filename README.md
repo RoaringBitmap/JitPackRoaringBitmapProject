@@ -15,7 +15,7 @@ Add the following dependency to your pom.xml file...
 <dependency>
     <groupId>com.github.RoaringBitmap.RoaringBitmap</groupId>
     <artifactId>roaringbitmap</artifactId>
-    <version>1.3.15</version>
+    <version>1.3.16</version>
 </dependency>
 ```
 
