@@ -5,8 +5,12 @@ package org.roaringbitmap;
  *
  */
 import org.roaringbitmap.RoaringBitmap;
+import org.roaringbitmap.bsi.RoaringBitmapSliceIndex;
 public class App 
 {
+    public void setup() {
+      RoaringBitmapSliceIndex bsi = new RoaringBitmapSliceIndex(1, 99);
+    }
     public static void main(String[] args) {
         RoaringBitmap rr = RoaringBitmap.bitmapOf(1,2,3,1000);
         RoaringBitmap rr2 = new RoaringBitmap();

@@ -35,6 +35,6 @@ public class AppTest
     public void testApp()
     {
          RoaringBitmap rr = RoaringBitmap.bitmapOf(1,2,3,1000);
-        assertTrue( rr.contains(1) );
+        assertTrue( rr.contains(3) );
     }
 }

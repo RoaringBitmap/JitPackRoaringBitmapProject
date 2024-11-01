@@ -1,0 +1,26 @@
+name: 11, 17, 21 CI
+
+on: [push,pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDKs 11, 17, 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: |
+            11
+            17
+            21
+      - name: Build with Gradle
+        run: ./gradlew assemble
+      - name: Test with Java 11
+        run: ./gradlew test -PtestOnJava=11 --stacktrace
+      - name: Test with Java 17
+        run: ./gradlew test -PtestOnJava=17 --stacktrace
+      - name: Test with Java 21
+        run: ./gradlew test -PtestOnJava=21 --stacktrace
